@@ -1,6 +1,9 @@
+import React from "react";
+
 export interface InputFieldProps {
   label: string;
   type?: string;
+  icon?: React.ReactNode;
 }
 
 export interface FormFieldProps {
