@@ -1,6 +1,7 @@
 "use client";
 import { Button } from "@/components/buttons/button.styled.component";
 import Card from "@/components/card/card.component";
+import CarouselComponent from "@/components/carousel/carousel.component";
 import FormField from "@/components/form/form.component";
 import { FormErrorMessage } from "@/components/form/form.styled.component";
 
@@ -35,6 +36,7 @@ export default function Home() {
       </div>
 
       <Card />
+      <CarouselComponent />
     </div>
   );
 }

@@ -1,11 +1,25 @@
-import React from 'react'
+import React from "react";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "./carousel.styled.component";
+import Card from "../card/card.component";
 
-type Props = {}
+type Props = {};
 
-const Carousel = (props: Props) => {
+const CarouselComponent = (props: Props) => {
   return (
-    <div>Carousel</div>
-  )
-}
+    <Carousel>
+      <CarouselContent>
+        {Array.from({ length: 5 }).map((_, index) => (
+          <CarouselItem key={index}>
+            <Card />
+          </CarouselItem>
+        ))}
+      </CarouselContent>
+    </Carousel>
+  );
+};
 
-export default Carousel
+export default CarouselComponent;
