@@ -29,7 +29,12 @@ export const FormButton = styled.button`
 `;
 
 export const FormErrorMessage = styled.p`
-  color: red;
+  color: #fff;
+  font-size: 13px;
+  padding: 0.5rem;
+  background: #f00;
+  border-radius: 4px;
+  border: none;
   text-align: center;
 `;
 
