@@ -5,12 +5,14 @@ import FormField from "@/components/form/form.component";
 export default function Home() {
   return (
     <div>
-      <FormField buttonLabel="login" title="login" />
-      <FormField
-        buttonLabel="register"
-        title="create new account"
-        createAccount
-      />
+      <div style={{ margin: "10px", display: "flex", gap: "10px" }}>
+        <FormField buttonLabel="login" title="login" />
+        <FormField
+          buttonLabel="register"
+          title="create new account"
+          createAccount
+        />
+      </div>
 
       <div style={{ margin: "10px", display: "flex", gap: "10px" }}>
         <Button>default</Button>
