@@ -1,6 +1,15 @@
 import styled from "styled-components";
 
-export const Button = styled.button<{ variant?: string }>`
+type Variant =
+  | "primary"
+  | "secondary"
+  | "success"
+  | "premium"
+  | "destructive"
+  | "disabled"
+  | "standard";
+
+export const Button = styled.button<{ variant?: Variant }>`
   display: flex;
   align-items: center;
   justify-content: center;
