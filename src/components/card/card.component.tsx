@@ -1,6 +1,6 @@
 "use client";
 import {
-  CardContainer,
+  Card,
   CardDescription,
   CardImage,
   CardImageContainer,
@@ -10,9 +10,9 @@ import { Button } from "../buttons/button.styled.component";
 
 type Props = {};
 
-const Card = (props: Props) => {
+const CardComponent = (props: Props) => {
   return (
-    <CardContainer>
+    <Card>
       <CardImageContainer>
         <CardImage
           src="/assets/halic.jpg"
@@ -27,8 +27,8 @@ const Card = (props: Props) => {
         eligendi id quas.
       </CardDescription>
       <Button>read more</Button>
-    </CardContainer>
+    </Card>
   );
 };
 
-export default Card;
+export default CardComponent;
