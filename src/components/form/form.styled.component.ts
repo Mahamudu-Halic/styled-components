@@ -6,7 +6,7 @@ export const FormTitle = styled.h2`
   text-transform: capitalize;
 `;
 
-export const FormContainer = styled.form`
+export const FormContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
