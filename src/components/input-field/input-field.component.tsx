@@ -1,3 +1,4 @@
+"use client"
 import { InputFieldProps } from '@/types/propTypes'
 import React from 'react'
 import { Input, InputFieldContainer, Label } from './input-field.styled.component'

@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import InputField from "../input-field/input-field.component";
 import {
