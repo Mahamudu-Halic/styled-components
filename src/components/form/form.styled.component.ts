@@ -29,12 +29,13 @@ export const FormButton = styled.button`
 
 export const FormErrorMessage = styled.p`
   color: #fff;
-  font-size: 13px;
-  padding: 0.5rem;
+  font-size: 15px;
+  padding: 1rem;
   background: #f00;
   border-radius: 4px;
   border: none;
   text-align: center;
+  width: 200px;
 `;
 
 export const FormPrompt = styled.p`

@@ -11,6 +11,11 @@ export const Button = styled.button<{ variant?: string }>`
   border-radius: 8px;
   cursor: pointer;
   color: #fff;
+  filter: brightness(0.8);
+
+  &:hover {
+    filter: brightness(1);
+  }
 
   ${({ variant }) => {
     switch (variant) {
@@ -37,6 +42,10 @@ export const Button = styled.button<{ variant?: string }>`
       case "disabled":
         return `
               background: #373941;
+            `;
+      case "standard":
+        return `
+              background: #000;
             `;
       default:
         return `
