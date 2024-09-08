@@ -13,7 +13,6 @@ export const FormContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 400px;
-  margin: 20px;
   padding: 1.5rem;
   border: 1px solid #000;
   border-radius: 4px;
