@@ -13,7 +13,7 @@ export const Button = styled.button<{ variant?: Variant }>`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem 1.5rem;
+  padding: 0.7rem;
   font-size: 1.2rem;
   background: none;
   border: none;
